@@ -1,6 +1,10 @@
+import { useDrag } from 'react-dnd'
+
 const TicketNode = () => {
+  const [, drag] = useDrag(() => ({ type: "ticket", item: { component: "ticket-layout" } }))
+
   return (
-    <div>
+    <div ref={drag}>
     ticket node
     </div>
   )

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.a4-div {
+  width: 510px;
+  height: calc(510px * 1.414); /* Based on the viewport width */
+}

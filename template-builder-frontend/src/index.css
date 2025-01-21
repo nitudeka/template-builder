@@ -6,3 +6,7 @@
   width: 510px;
   height: calc(510px * 1.414); /* Based on the viewport width */
 }
+
+.text-2xs {
+  font-size: 0.6rem;
+}

@@ -16,5 +16,582 @@
     { "label": "PNR", "key": "pnr", "value": "HNH18" },
     { "label": "Seq No.", "key": "seqNo", "value": "4" },
     { "label": "E-Ticket", "key": "eTicket", "value": "0982112022248" }
+  ],
+  "dummy_template": [
+    {
+      "item": {
+	"component": "ticket-layout",
+	"children": [],
+	"id": "549cb2a4-98f8-4f7f-953e-0c89d79e3575"
+      },
+      "x": 621,
+      "y": 264,
+      "children": [
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "5e6bead0-155c-44c6-9bc8-eace6daeaa32",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Name",
+	    "value": {
+	      "label": "Name",
+	      "key": "name",
+	      "value": "MR Gupta"
+	    }
+	  },
+	  "x": 397,
+	  "y": 139
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "ccdea858-9dee-499f-a969-ce72aecedb47",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Seat",
+	    "value": {
+	      "label": "Seat",
+	      "key": "seat",
+	      "value": "19k"
+	    }
+	  },
+	  "x": 443,
+	  "y": 183
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "57165fff-5c9c-4f58-9def-b3fe953a85a4",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "FF No.",
+	    "value": {
+	      "label": "FF No.",
+	      "key": "ffNo",
+	      "value": ""
+	    }
+	  },
+	  "x": 450,
+	  "y": 158
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "13503aca-ac38-423a-98c2-ee162719193e",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "FF Tier",
+	    "value": {
+	      "label": "FF Tier",
+	      "key": "ffTier",
+	      "value": ""
+	    }
+	  },
+	  "x": 649,
+	  "y": 118
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "78c0d182-c0e0-479b-9e6a-a62139586927"
+	  },
+	  "x": 655,
+	  "y": 126
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "c758d517-365a-4b4c-8308-a2379f8d810a"
+	  },
+	  "x": 612,
+	  "y": 116
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "daecd13d-b568-41a1-ac10-1bc0947767f9",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "From",
+	    "value": {
+	      "label": "From",
+	      "key": "from",
+	      "value": "Delhi"
+	    }
+	  },
+	  "x": 598,
+	  "y": 145
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "81e7e383-3fff-4770-8aa2-9e5b97204693",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "To",
+	    "value": {
+	      "label": "To",
+	      "key": "to",
+	      "value": "Mumbai"
+	    }
+	  },
+	  "x": 548,
+	  "y": 141
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "a18a02be-a4f8-4090-8d6e-346adad01c92",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "SSR",
+	    "value": {
+	      "label": "SSR",
+	      "key": "ssr",
+	      "value": "AVML"
+	    }
+	  },
+	  "x": 490,
+	  "y": 125
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "e0f6710c-371f-4de4-be58-e6eab019b831",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Flight Number",
+	    "value": {
+	      "label": "Flight Number",
+	      "key": "flightNumber",
+	      "value": "AI0102"
+	    }
+	  },
+	  "x": 671,
+	  "y": 160
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "5726ecb9-34b3-46ea-989e-f4cf884741c6",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Date",
+	    "value": {
+	      "label": "Date",
+	      "key": "date",
+	      "value": "09 MAR"
+	    }
+	  },
+	  "x": 695,
+	  "y": 139
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "3a23b907-fdc8-4503-90ef-85e67fd20432",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Depart. Time",
+	    "value": {
+	      "label": "Departure Time",
+	      "key": "departureTime",
+	      "value": "16:45"
+	    }
+	  },
+	  "x": 709,
+	  "y": 147
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "6da86a62-1560-4e69-b2d2-39f8f23f402d",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Gate"
+	  },
+	  "x": 485,
+	  "y": 192
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "2db54944-56d7-4e6a-b56b-ae5b9171bf16",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Boarding Time",
+	    "value": {
+	      "label": "Boarding Time",
+	      "key": "boardingTime",
+	      "value": "16:15"
+	    }
+	  },
+	  "x": 619,
+	  "y": 193
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "6f17bd99-9d6f-4c14-869a-09b8c0749c06",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Class",
+	    "value": {
+	      "label": "Class",
+	      "key": "class",
+	      "value": "E"
+	    }
+	  },
+	  "x": 651,
+	  "y": 166
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "bc79ab62-5652-4554-b196-0b8c39622655",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "PNR",
+	    "value": {
+	      "label": "PNR",
+	      "key": "pnr",
+	      "value": "HNH18"
+	    }
+	  },
+	  "x": 607,
+	  "y": 200
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "052f9887-9e27-4c32-9358-ce0254aba79d",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Seq. No.",
+	    "value": {
+	      "label": "Seq No.",
+	      "key": "seqNo",
+	      "value": "4"
+	    }
+	  },
+	  "x": 669,
+	  "y": 156
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "060dccf9-180d-400b-9bce-3fdd8e5fcb7a",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "E-Ticket",
+	    "value": {
+	      "label": "E-Ticket",
+	      "key": "eTicket",
+	      "value": "0982112022248"
+	    }
+	  },
+	  "x": 666,
+	  "y": 164
+	}
+      ]
+    },
+    {
+      "item": {
+	"component": "info-layout",
+	"children": [],
+	"id": "ce14b411-5441-46de-bf1e-a05c2ddc9599"
+      },
+      "x": 565,
+      "y": 321,
+      "children": [
+	{
+	  "item": {
+	    "component": "info-field",
+	    "id": "c17d4918-5d03-4836-8e1a-6789fc415d44",
+	    "parentNodeId": "ce14b411-5441-46de-bf1e-a05c2ddc9599",
+	    "value": "<h1>You have completed your check-in successfully!<br></h1>"
+	  },
+	  "x": 597,
+	  "y": 301
+	},
+	{
+	  "item": {
+	    "component": "info-field",
+	    "id": "86d7f40a-f2de-4b87-bfac-76f450657ed3",
+	    "parentNodeId": "ce14b411-5441-46de-bf1e-a05c2ddc9599",
+	    "value": "<h2>Please read carefully the information below and print your boarding pass before going to the airport<br></h2>"
+	  },
+	  "x": 475,
+	  "y": 318
+	},
+	{
+	  "item": {
+	    "component": "info-field",
+	    "id": "88852183-b8ab-4bbc-a0bd-cb0156afd385",
+	    "parentNodeId": "ce14b411-5441-46de-bf1e-a05c2ddc9599",
+	    "value": "<h1>Thank you for flying with AIR INDIA<br></h1>"
+	  },
+	  "x": 423,
+	  "y": 345
+	},
+	{
+	  "item": {
+	    "component": "info-field",
+	    "id": "9f1dfb09-3d9d-4768-98a5-e22609723360",
+	    "parentNodeId": "ce14b411-5441-46de-bf1e-a05c2ddc9599",
+	    "value": "<div>1. Print your web booking pass</div><div>2. At the airport, proceed to a dedicated baggage drop-off counter.<br></div>"
+	  },
+	  "x": 568,
+	  "y": 397
+	}
+      ]
+    },
+    {
+      "item": {
+	"component": "ticket-layout",
+	"children": [],
+	"id": "549cb2a4-98f8-4f7f-953e-0c89d79e3575"
+      },
+      "x": 621,
+      "y": 264,
+      "children": [
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "5e6bead0-155c-44c6-9bc8-eace6daeaa32",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Name",
+	    "value": {
+	      "label": "Name",
+	      "key": "name",
+	      "value": "MR Gupta"
+	    }
+	  },
+	  "x": 397,
+	  "y": 139
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "ccdea858-9dee-499f-a969-ce72aecedb47",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Seat",
+	    "value": {
+	      "label": "Seat",
+	      "key": "seat",
+	      "value": "19k"
+	    }
+	  },
+	  "x": 443,
+	  "y": 183
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "57165fff-5c9c-4f58-9def-b3fe953a85a4",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "FF No.",
+	    "value": {
+	      "label": "FF No.",
+	      "key": "ffNo",
+	      "value": ""
+	    }
+	  },
+	  "x": 450,
+	  "y": 158
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "13503aca-ac38-423a-98c2-ee162719193e",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "FF Tier",
+	    "value": {
+	      "label": "FF Tier",
+	      "key": "ffTier",
+	      "value": ""
+	    }
+	  },
+	  "x": 649,
+	  "y": 118
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "78c0d182-c0e0-479b-9e6a-a62139586927"
+	  },
+	  "x": 655,
+	  "y": 126
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "c758d517-365a-4b4c-8308-a2379f8d810a"
+	  },
+	  "x": 612,
+	  "y": 116
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "daecd13d-b568-41a1-ac10-1bc0947767f9",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "From",
+	    "value": {
+	      "label": "From",
+	      "key": "from",
+	      "value": "Delhi"
+	    }
+	  },
+	  "x": 598,
+	  "y": 145
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "81e7e383-3fff-4770-8aa2-9e5b97204693",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "To",
+	    "value": {
+	      "label": "To",
+	      "key": "to",
+	      "value": "Mumbai"
+	    }
+	  },
+	  "x": 548,
+	  "y": 141
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "a18a02be-a4f8-4090-8d6e-346adad01c92",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "SSR",
+	    "value": {
+	      "label": "SSR",
+	      "key": "ssr",
+	      "value": "AVML"
+	    }
+	  },
+	  "x": 490,
+	  "y": 125
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "e0f6710c-371f-4de4-be58-e6eab019b831",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Flight Number",
+	    "value": {
+	      "label": "Flight Number",
+	      "key": "flightNumber",
+	      "value": "AI0102"
+	    }
+	  },
+	  "x": 671,
+	  "y": 160
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "5726ecb9-34b3-46ea-989e-f4cf884741c6",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Date",
+	    "value": {
+	      "label": "Date",
+	      "key": "date",
+	      "value": "09 MAR"
+	    }
+	  },
+	  "x": 695,
+	  "y": 139
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "3a23b907-fdc8-4503-90ef-85e67fd20432",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Depart. Time",
+	    "value": {
+	      "label": "Departure Time",
+	      "key": "departureTime",
+	      "value": "16:45"
+	    }
+	  },
+	  "x": 709,
+	  "y": 147
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "6da86a62-1560-4e69-b2d2-39f8f23f402d",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Gate"
+	  },
+	  "x": 485,
+	  "y": 192
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "2db54944-56d7-4e6a-b56b-ae5b9171bf16",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Boarding Time",
+	    "value": {
+	      "label": "Boarding Time",
+	      "key": "boardingTime",
+	      "value": "16:15"
+	    }
+	  },
+	  "x": 619,
+	  "y": 193
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "6f17bd99-9d6f-4c14-869a-09b8c0749c06",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Class",
+	    "value": {
+	      "label": "Class",
+	      "key": "class",
+	      "value": "E"
+	    }
+	  },
+	  "x": 651,
+	  "y": 166
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "bc79ab62-5652-4554-b196-0b8c39622655",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "PNR",
+	    "value": {
+	      "label": "PNR",
+	      "key": "pnr",
+	      "value": "HNH18"
+	    }
+	  },
+	  "x": 607,
+	  "y": 200
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "052f9887-9e27-4c32-9358-ce0254aba79d",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "Seq. No.",
+	    "value": {
+	      "label": "Seq No.",
+	      "key": "seqNo",
+	      "value": "4"
+	    }
+	  },
+	  "x": 669,
+	  "y": 156
+	},
+	{
+	  "item": {
+	    "component": "ticket-field",
+	    "id": "060dccf9-180d-400b-9bce-3fdd8e5fcb7a",
+	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
+	    "title": "E-Ticket",
+	    "value": {
+	      "label": "E-Ticket",
+	      "key": "eTicket",
+	      "value": "0982112022248"
+	    }
+	  },
+	  "x": 666,
+	  "y": 164
+	}
+      ]
+    }
   ]
 }

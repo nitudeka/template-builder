@@ -24,7 +24,7 @@ const TicketNode = ({ setSelectedField, nodeData, handleUpdateChild }) => {
 		  nodeChildren={nodeData?.children || []}
 		  updateChild={handleUpdateChild}
 		  render={(layout) => (
-		    <div className='w-full h-full grid-gap-0 grid grid-rows-3 grid-cols-6'>
+		    <div className='w-full grid-gap-0 grid grid-rows-3 grid-cols-6'>
 		      {layout.map(({item}, i) => {
 			const node = nodes[item.component]
 			const NodeComponent = node.component

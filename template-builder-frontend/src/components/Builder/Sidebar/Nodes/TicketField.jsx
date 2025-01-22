@@ -2,6 +2,7 @@ import { useDrag } from 'react-dnd'
 import mockDb from '../../../../bin/mockDb.json'
 import Input from '../../../UI/Input'
 import Select from '../../../UI/Select'
+import ImgInput from '../../../../assets/png/input.png'
 
 export const NodeConfig = ({ fieldValues, setFieldValues }) => {
   const onFieldChange = (label, value) => {
@@ -25,8 +26,9 @@ const TicketFieldNode = () => {
   }))
 
   return (
-    <div ref={drag}>
-    ticket field node
+    <div ref={drag} className='flex items-center justify-start gap-4'>
+      <img src={ImgInput} className='w-8' /> 
+      <span className='font-semibold text-gray-800'>Ticket Field</span>
     </div>
   )
 }

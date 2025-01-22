@@ -1,6 +1,6 @@
 {
   "boarding_details": [
-    { "label": "Name", "key": "name", "value": "Gupta/MukeshMR" },
+    { "label": "Name", "key": "name", "value": "MR Gupta" },
     { "label": "Seat", "key": "seat", "value": "19k" },
     { "label": "FF No.", "key": "ffNo", "value": "" },
     { "label": "FF Tier", "key": "ffTier", "value": "" },

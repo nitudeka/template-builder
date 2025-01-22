@@ -1,4 +1,5 @@
 import { useDrag } from 'react-dnd'
+import ImgTicket from '../../../../assets/png/ticket.png'
 
 const TicketNode = () => {
   const [, drag] = useDrag(() => ({
@@ -9,8 +10,9 @@ const TicketNode = () => {
   }))
 
   return (
-    <div ref={drag}>
-    ticket node
+    <div ref={drag} className='flex items-center justify-start gap-4'>
+      <img src={ImgTicket} className='w-8' /> 
+      <span className='font-semibold text-gray-800'>Ticket</span>
     </div>
   )
 }

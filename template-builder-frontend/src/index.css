@@ -22,6 +22,10 @@
   font-size: 0.6rem;
 }
 
+.ticket-field {
+  background-color: rgba(229, 231, 235, 0.5);
+}
+
 @media print {
   h1 {
     font-weight: 700;
@@ -32,6 +36,10 @@
   h2 {
     font-size: 0.85rem;
     color: rgba(0,0,0,0.7);
+  }
+
+  .ticket-field {
+    background-color: transparent;
   }
 }
 

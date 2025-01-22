@@ -5,7 +5,7 @@ import ImgBarcode from '../../../assets/png/barcode.png'
 
 const TicketNode = ({ setSelectedField, nodeData, handleUpdateChild }) => {
   return (
-    <NodeContainer focusBgClass='bg-red-500' containerClass='h-1/4' acceptTypes={['header']} 
+    <NodeContainer focusBgClass='bg-red-500' containerClass='h-1/4' 
       render={() => (
 	<div className='h-full'>
 	  <div className='border overflow-hidden h-full border-solid p-1'>

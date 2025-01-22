@@ -7,7 +7,7 @@ const nodeComponents = Object.keys(nodes).map(k => nodes[k])
 
 const initialValues = {
   title: '',
-  value: ''
+  value: '',
 }
 
 const Sidebar = ({ onPrint, selectedField, setSelectedField, layout, setLayout }) => {

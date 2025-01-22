@@ -70,10 +70,10 @@ const Builder = () => {
   }, [])
 
   return (
-    <div className="h-screen w-screen flex">
-      <div className="flex-grow flex items-center justify-center w-full">
+    <div className="builder h-screen w-screen flex">
+      <div className="bg-gray-100 flex-grow flex items-center justify-center w-full">
 	<div ref={printContainer}>
-	  <div ref={drop} className={[isOverCurrent ? "bg-blue-100" : "bg-white", "p-2 flex flex-col gap-2 border border-solid a4-div overflow-hidden"].join(" ")}>
+	  <div ref={drop} className={[isOverCurrent ? "bg-blue-100" : "bg-white", "p-2 shadow-sm flex flex-col gap-2 border border-solid a4-div overflow-hidden"].join(" ")}>
 	    {layout.map(({item, children}, i) => {
 	      const node = nodes[item.component]
 	      const NodeComponent = node.component
@@ -82,7 +82,7 @@ const Builder = () => {
 	  </div>
 	</div>
       </div>
-      <div className="w-96">
+      <div className="min-w-96 w-2/6">
 	<Sidebar selectedField={selectedField} layout={layout} setLayout={setLayout} setSelectedField={setSelectedField} onPrint={onPrint} />
       </div>
     </div>

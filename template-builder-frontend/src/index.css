@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.builder h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(0,0,0,0.8);
+}
+
+.builder h2 {
+  font-size: 0.8rem;
+  color: rgba(0,0,0,0.7);
+}
+
 .a4-div {
   width: 510px;
-  height: calc(510px * 1.414); /* Based on the viewport width */
+  height: calc(510px * 1.414);
 }
 
 .text-2xs {
@@ -12,8 +23,21 @@
 }
 
 @media print {
+  h1 {
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: rgba(0,0,0,0.8);
+  }
+
+  h2 {
+    font-size: 0.85rem;
+    color: rgba(0,0,0,0.7);
+  }
+}
+
+@media print {
   html {
-    font-size: 24px; /* or any consistent value */
+    font-size: 24px;
   }
 
   body {

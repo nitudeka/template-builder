@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useDrop } from 'react-dnd'
+import { v4 as uuidv4 } from 'uuid';
 import nodes from './Nodes'
 import Sidebar from './Sidebar'
 
@@ -7,6 +8,7 @@ const Builder = () => {
   const [hasDropped, setHasDropped] = useState(false)
   const [hasDroppedOnChild, setHasDroppedOnChild] = useState(false)
   const [layout, setLayout] = useState([ ]);
+  const [selectedField, setSelectedField] = useState(null);
 
   const [{ isOver, isOverCurrent }, drop] = useDrop(
     () => ({
@@ -20,7 +22,7 @@ const Builder = () => {
         setHasDroppedOnChild(didDrop)
 	
 	const offset = monitor.getClientOffset();
-	handleDrop(item, offset.x, offset.y);
+	handleDrop({...item, children: [], id: uuidv4() }, offset.x, offset.y);
       },
       collect: (monitor) => ({
         isOver: monitor.isOver(),
@@ -30,26 +32,36 @@ const Builder = () => {
     [setHasDropped, handleDrop, setHasDroppedOnChild],
   )
 
+  const handleUpdateChild = (children, nodeData) => {
+    setLayout(prevLayout => {
+      const update = [...prevLayout]
+      const nodeIndx = update.findIndex(l => l.item.id === nodeData.id)
+      update[nodeIndx].children = children
+
+      return update
+    })
+  }
+
   function handleDrop(item, x, y) {
     setLayout((prevLayout) => {
-      return prevLayout.concat({ item, x, y })
+      return prevLayout.concat({ item, x, y, children: [] })
     });
   };
 
   return (
     <div className="h-screen w-screen flex">
       <div className="flex-grow flex items-center justify-center w-full p-4">
-	<div ref={drop} className={[isOverCurrent ? "bg-blue-100" : "bg-white", "border border-solid a4-div overflow-hidden"].join(" ")}>
+	<div ref={drop} className={[isOverCurrent ? "bg-blue-100" : "bg-white", "p-2 flex flex-col gap-2 border border-solid a4-div overflow-hidden"].join(" ")}>
 	  {layout.map(({item}, i) => {
 	    const node = nodes[item.component]
 	    const NodeComponent = node.component
 	    
-	    return <NodeComponent key={i} />
+	    return <NodeComponent key={i} handleUpdateChild={(children) => handleUpdateChild(children, item)} nodeData={item} setSelectedField={setSelectedField} />
 	  })}
 	</div>
       </div>
       <div className="w-96">
-	<Sidebar />
+	<Sidebar selectedField={selectedField} setLayout={setLayout} setSelectedField={setSelectedField} />
       </div>
     </div>
   )

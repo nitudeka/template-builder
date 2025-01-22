@@ -1,0 +1,20 @@
+{
+  "boarding_details": [
+    { "label": "Name", "key": "name", "value": "Gupta/MukeshMR" },
+    { "label": "Seat", "key": "seat", "value": "19k" },
+    { "label": "FF No.", "key": "ffNo", "value": "" },
+    { "label": "FF Tier", "key": "ffTier", "value": "" },
+    { "label": "From", "key": "from", "value": "Delhi" },
+    { "label": "To", "key": "to", "value": "Mumbai" },
+    { "label": "SSR", "key": "ssr", "value": "AVML" },
+    { "label": "Flight Number", "key": "flightNumber", "value": "AI0102" },
+    { "label": "Date", "key": "date", "value": "09 MAR" },
+    { "label": "Departure Time", "key": "departureTime", "value": "16:45" },
+    { "label": "Gate", "key": "gate", "value": "" },
+    { "label": "Boarding Time", "key": "boardingTime", "value": "16:15" },
+    { "label": "Class", "key": "class", "value": "E" },
+    { "label": "PNR", "key": "pnr", "value": "HNH18" },
+    { "label": "Seq No.", "key": "seqNo", "value": "4" },
+    { "label": "E-Ticket", "key": "eTicket", "value": "0982112022248" }
+  ]
+}

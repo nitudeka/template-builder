@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
 import Button from '../../UI/Button'
 import ImgPdf from '../../../assets/png/pdf.png'
+import ImgLoad from '../../../assets/png/loading.png'
 import nodes from './Nodes'
+import mockDb from '../../../bin/mockDb.json'
 
 const nodeComponents = Object.keys(nodes).map(k => nodes[k])
 
@@ -16,6 +18,10 @@ const Sidebar = ({ onPrint, selectedField, setSelectedField, layout, setLayout }
 
   const onCancelEdit = () => {
     setSelectedField(null)
+  }
+
+  const onLoadDummyData = () => {
+    setLayout(mockDb.dummy_template)
   }
 
   const onDelete = () => {
@@ -91,7 +97,13 @@ const Sidebar = ({ onPrint, selectedField, setSelectedField, layout, setLayout }
 	    <span>Print</span>
 	  </div>
 	</Button>
-      </div>}
+	</div>}
+      {!layout.length && <Button fullWidth onClick={onLoadDummyData}>
+	<div className='flex items-center gap-2 justify-center'>
+	  <img src={ImgLoad} alt='download pdf' className='w-6' />
+	  <span>Load dummy data</span>
+	</div>
+      </Button>}
     </div>
   )
 }

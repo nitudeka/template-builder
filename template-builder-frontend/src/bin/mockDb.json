@@ -153,7 +153,7 @@
 	    "component": "ticket-field",
 	    "id": "e0f6710c-371f-4de4-be58-e6eab019b831",
 	    "parentNodeId": "549cb2a4-98f8-4f7f-953e-0c89d79e3575",
-	    "title": "Flight Number",
+	    "title": "Flight No.",
 	    "value": {
 	      "label": "Flight Number",
 	      "key": "flightNumber",

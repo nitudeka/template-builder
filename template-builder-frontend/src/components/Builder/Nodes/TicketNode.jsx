@@ -19,7 +19,7 @@ const TicketNode = ({ setSelectedField, nodeData, handleUpdateChild }) => {
 	    </div>
 	    <div className='flex items-start justify-start h-full'>
 	      <img src={ImgBarcode} alt='barcode' className='transform rotate-90 w-24 mt-12 -ml-8' />
-	      <div className='ml-2 flex-grow h-full -ml-6'>
+	      <div className='flex-grow h-full -ml-6'>
 		<span className='text-xs text-gray-500'>Boarding Pass</span>
 		<NodeContainer focusBgClass='bg-green-100' containerClass='h-full' acceptTypes={['ticket-field']}
 		  nodeChildren={nodeData?.children || []}
